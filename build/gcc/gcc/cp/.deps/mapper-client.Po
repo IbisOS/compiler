@@ -1,0 +1,32 @@
+cp/mapper-client.o: ../../../gcc/gcc/cp/mapper-client.cc config.h \
+ auto-host.h ../../../gcc/gcc/../include/ansidecl.h \
+ ../../../gcc/gcc/system.h ../../../gcc/gcc/../include/safe-ctype.h \
+ ../../../gcc/gcc/../include/filenames.h \
+ ../../../gcc/gcc/../include/hashtab.h \
+ ../../../gcc/gcc/../include/ansidecl.h \
+ /home/dashiel/Desktop/OffDriveProjects/IbisOS/compiler/build/gcc/./gmp/gmp.h \
+ ../../../gcc/gcc/../include/libiberty.h ../../../gcc/gcc/hwint.h \
+ ../../../gcc/gcc/../libcpp/include/line-map.h \
+ ../../../gcc/gcc/diagnostic-core.h bversion.h \
+ ../../../gcc/gcc/diagnostic.def ../../../gcc/gcc/cp/mapper-client.h \
+ ../../../gcc/gcc/../libcody/cody.hh ../../../gcc/gcc/intl.h \
+ ../../../gcc/gcc/cp/../../c++tools/resolver.h
+config.h:
+auto-host.h:
+../../../gcc/gcc/../include/ansidecl.h:
+../../../gcc/gcc/system.h:
+../../../gcc/gcc/../include/safe-ctype.h:
+../../../gcc/gcc/../include/filenames.h:
+../../../gcc/gcc/../include/hashtab.h:
+../../../gcc/gcc/../include/ansidecl.h:
+/home/dashiel/Desktop/OffDriveProjects/IbisOS/compiler/build/gcc/./gmp/gmp.h:
+../../../gcc/gcc/../include/libiberty.h:
+../../../gcc/gcc/hwint.h:
+../../../gcc/gcc/../libcpp/include/line-map.h:
+../../../gcc/gcc/diagnostic-core.h:
+bversion.h:
+../../../gcc/gcc/diagnostic.def:
+../../../gcc/gcc/cp/mapper-client.h:
+../../../gcc/gcc/../libcody/cody.hh:
+../../../gcc/gcc/intl.h:
+../../../gcc/gcc/cp/../../c++tools/resolver.h:

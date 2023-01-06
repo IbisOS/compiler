@@ -1,0 +1,171 @@
+regcprop.o: ../../../gcc/gcc/regcprop.cc config.h auto-host.h \
+ ../../../gcc/gcc/../include/ansidecl.h ../../../gcc/gcc/system.h \
+ ../../../gcc/gcc/../include/safe-ctype.h \
+ ../../../gcc/gcc/../include/filenames.h \
+ ../../../gcc/gcc/../include/hashtab.h \
+ ../../../gcc/gcc/../include/ansidecl.h \
+ /home/dashiel/Desktop/OffDriveProjects/IbisOS/compiler/build/gcc/./gmp/gmp.h \
+ ../../../gcc/gcc/../include/libiberty.h ../../../gcc/gcc/hwint.h \
+ ../../../gcc/gcc/coretypes.h insn-modes.h ../../../gcc/gcc/signop.h \
+ ../../../gcc/gcc/wide-int.h ../../../gcc/gcc/wide-int-print.h \
+ ../../../gcc/gcc/poly-int.h ../../../gcc/gcc/poly-int-types.h \
+ insn-modes-inline.h ../../../gcc/gcc/machmode.h \
+ ../../../gcc/gcc/mode-classes.def ../../../gcc/gcc/double-int.h \
+ ../../../gcc/gcc/align.h ../../../gcc/gcc/iterator-utils.h \
+ ../../../gcc/gcc/real.h ../../../gcc/gcc/fixed-value.h \
+ ../../../gcc/gcc/hash-table.h ../../../gcc/gcc/statistics.h \
+ ../../../gcc/gcc/ggc.h gtype-desc.h ../../../gcc/gcc/vec.h \
+ ../../../gcc/gcc/../include/hashtab.h ../../../gcc/gcc/inchash.h \
+ ../../../gcc/gcc/mem-stats-traits.h ../../../gcc/gcc/hash-traits.h \
+ ../../../gcc/gcc/hash-map-traits.h ../../../gcc/gcc/mem-stats.h \
+ ../../../gcc/gcc/hash-map.h ../../../gcc/gcc/hash-set.h \
+ ../../../gcc/gcc/input.h ../../../gcc/gcc/../libcpp/include/line-map.h \
+ ../../../gcc/gcc/is-a.h ../../../gcc/gcc/memory-block.h \
+ ../../../gcc/gcc/dumpfile.h ../../../gcc/gcc/profile-count.h \
+ ../../../gcc/gcc/backend.h tm.h options.h ../../../gcc/gcc/flag-types.h \
+ ../../../gcc/gcc/config/i386/i386-opts.h \
+ ../../../gcc/gcc/config/i386/stringop.def insn-constants.h \
+ ../../../gcc/gcc/config/vxworks-dummy.h \
+ ../../../gcc/gcc/config/i386/i386.h \
+ ../../../gcc/gcc/config/i386/x86-tune.def \
+ ../../../gcc/gcc/wide-int-bitmask.h \
+ ../../../gcc/gcc/config/i386/i386-isa.def insn-attr-common.h \
+ ../../../gcc/gcc/common/config/i386/i386-cpuinfo.h \
+ ../../../gcc/gcc/config/i386/unix.h ../../../gcc/gcc/config/i386/att.h \
+ ../../../gcc/gcc/config/dbxelf.h ../../../gcc/gcc/config/elfos.h \
+ ../../../gcc/gcc/config/newlib-stdint.h \
+ ../../../gcc/gcc/config/i386/i386elf.h \
+ ../../../gcc/gcc/config/initfini-array.h insn-flags.h insn-modes.h \
+ ../../../gcc/gcc/defaults.h ../../../gcc/gcc/function.h \
+ ../../../gcc/gcc/bitmap.h ../../../gcc/gcc/../include/obstack.h \
+ ../../../gcc/gcc/array-traits.h ../../../gcc/gcc/sbitmap.h \
+ ../../../gcc/gcc/basic-block.h ../../../gcc/gcc/profile-count.h \
+ ../../../gcc/gcc/cfg-flags.def ../../../gcc/gcc/cfg.h \
+ ../../../gcc/gcc/dominance.h ../../../gcc/gcc/rtl.h \
+ ../../../gcc/gcc/hard-reg-set.h ../../../gcc/gcc/rtl.def \
+ ../../../gcc/gcc/reg-notes.def ../../../gcc/gcc/insn-notes.def genrtl.h \
+ ../../../gcc/gcc/statistics.h ../../../gcc/gcc/df.h \
+ ../../../gcc/gcc/regset.h ../../../gcc/gcc/alloc-pool.h options.h \
+ ../../../gcc/gcc/timevar.h ../../../gcc/gcc/timevar.def \
+ ../../../gcc/gcc/memmodel.h tm_p.h \
+ ../../../gcc/gcc/config/i386/i386-protos.h tm-preds.h insn-config.h \
+ ../../../gcc/gcc/regs.h ../../../gcc/gcc/emit-rtl.h \
+ ../../../gcc/gcc/recog.h insn-codes.h ../../../gcc/gcc/diagnostic-core.h \
+ bversion.h ../../../gcc/gcc/diagnostic.def ../../../gcc/gcc/addresses.h \
+ ../../../gcc/gcc/tree-pass.h ../../../gcc/gcc/rtl-iter.h \
+ ../../../gcc/gcc/cfgrtl.h ../../../gcc/gcc/target.h \
+ ../../../gcc/gcc/target.def ../../../gcc/gcc/target-hooks-macros.h \
+ ../../../gcc/gcc/target-insns.def ../../../gcc/gcc/function-abi.h
+config.h:
+auto-host.h:
+../../../gcc/gcc/../include/ansidecl.h:
+../../../gcc/gcc/system.h:
+../../../gcc/gcc/../include/safe-ctype.h:
+../../../gcc/gcc/../include/filenames.h:
+../../../gcc/gcc/../include/hashtab.h:
+../../../gcc/gcc/../include/ansidecl.h:
+/home/dashiel/Desktop/OffDriveProjects/IbisOS/compiler/build/gcc/./gmp/gmp.h:
+../../../gcc/gcc/../include/libiberty.h:
+../../../gcc/gcc/hwint.h:
+../../../gcc/gcc/coretypes.h:
+insn-modes.h:
+../../../gcc/gcc/signop.h:
+../../../gcc/gcc/wide-int.h:
+../../../gcc/gcc/wide-int-print.h:
+../../../gcc/gcc/poly-int.h:
+../../../gcc/gcc/poly-int-types.h:
+insn-modes-inline.h:
+../../../gcc/gcc/machmode.h:
+../../../gcc/gcc/mode-classes.def:
+../../../gcc/gcc/double-int.h:
+../../../gcc/gcc/align.h:
+../../../gcc/gcc/iterator-utils.h:
+../../../gcc/gcc/real.h:
+../../../gcc/gcc/fixed-value.h:
+../../../gcc/gcc/hash-table.h:
+../../../gcc/gcc/statistics.h:
+../../../gcc/gcc/ggc.h:
+gtype-desc.h:
+../../../gcc/gcc/vec.h:
+../../../gcc/gcc/../include/hashtab.h:
+../../../gcc/gcc/inchash.h:
+../../../gcc/gcc/mem-stats-traits.h:
+../../../gcc/gcc/hash-traits.h:
+../../../gcc/gcc/hash-map-traits.h:
+../../../gcc/gcc/mem-stats.h:
+../../../gcc/gcc/hash-map.h:
+../../../gcc/gcc/hash-set.h:
+../../../gcc/gcc/input.h:
+../../../gcc/gcc/../libcpp/include/line-map.h:
+../../../gcc/gcc/is-a.h:
+../../../gcc/gcc/memory-block.h:
+../../../gcc/gcc/dumpfile.h:
+../../../gcc/gcc/profile-count.h:
+../../../gcc/gcc/backend.h:
+tm.h:
+options.h:
+../../../gcc/gcc/flag-types.h:
+../../../gcc/gcc/config/i386/i386-opts.h:
+../../../gcc/gcc/config/i386/stringop.def:
+insn-constants.h:
+../../../gcc/gcc/config/vxworks-dummy.h:
+../../../gcc/gcc/config/i386/i386.h:
+../../../gcc/gcc/config/i386/x86-tune.def:
+../../../gcc/gcc/wide-int-bitmask.h:
+../../../gcc/gcc/config/i386/i386-isa.def:
+insn-attr-common.h:
+../../../gcc/gcc/common/config/i386/i386-cpuinfo.h:
+../../../gcc/gcc/config/i386/unix.h:
+../../../gcc/gcc/config/i386/att.h:
+../../../gcc/gcc/config/dbxelf.h:
+../../../gcc/gcc/config/elfos.h:
+../../../gcc/gcc/config/newlib-stdint.h:
+../../../gcc/gcc/config/i386/i386elf.h:
+../../../gcc/gcc/config/initfini-array.h:
+insn-flags.h:
+insn-modes.h:
+../../../gcc/gcc/defaults.h:
+../../../gcc/gcc/function.h:
+../../../gcc/gcc/bitmap.h:
+../../../gcc/gcc/../include/obstack.h:
+../../../gcc/gcc/array-traits.h:
+../../../gcc/gcc/sbitmap.h:
+../../../gcc/gcc/basic-block.h:
+../../../gcc/gcc/profile-count.h:
+../../../gcc/gcc/cfg-flags.def:
+../../../gcc/gcc/cfg.h:
+../../../gcc/gcc/dominance.h:
+../../../gcc/gcc/rtl.h:
+../../../gcc/gcc/hard-reg-set.h:
+../../../gcc/gcc/rtl.def:
+../../../gcc/gcc/reg-notes.def:
+../../../gcc/gcc/insn-notes.def:
+genrtl.h:
+../../../gcc/gcc/statistics.h:
+../../../gcc/gcc/df.h:
+../../../gcc/gcc/regset.h:
+../../../gcc/gcc/alloc-pool.h:
+options.h:
+../../../gcc/gcc/timevar.h:
+../../../gcc/gcc/timevar.def:
+../../../gcc/gcc/memmodel.h:
+tm_p.h:
+../../../gcc/gcc/config/i386/i386-protos.h:
+tm-preds.h:
+insn-config.h:
+../../../gcc/gcc/regs.h:
+../../../gcc/gcc/emit-rtl.h:
+../../../gcc/gcc/recog.h:
+insn-codes.h:
+../../../gcc/gcc/diagnostic-core.h:
+bversion.h:
+../../../gcc/gcc/diagnostic.def:
+../../../gcc/gcc/addresses.h:
+../../../gcc/gcc/tree-pass.h:
+../../../gcc/gcc/rtl-iter.h:
+../../../gcc/gcc/cfgrtl.h:
+../../../gcc/gcc/target.h:
+../../../gcc/gcc/target.def:
+../../../gcc/gcc/target-hooks-macros.h:
+../../../gcc/gcc/target-insns.def:
+../../../gcc/gcc/function-abi.h:

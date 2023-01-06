@@ -1,0 +1,19 @@
+errors.o: ../../../gcc/gcc/errors.cc config.h auto-host.h \
+ ../../../gcc/gcc/../include/ansidecl.h ../../../gcc/gcc/system.h \
+ ../../../gcc/gcc/../include/safe-ctype.h \
+ ../../../gcc/gcc/../include/filenames.h \
+ ../../../gcc/gcc/../include/hashtab.h \
+ ../../../gcc/gcc/../include/ansidecl.h \
+ ../../../gcc/gcc/../include/libiberty.h ../../../gcc/gcc/hwint.h \
+ ../../../gcc/gcc/errors.h
+config.h:
+auto-host.h:
+../../../gcc/gcc/../include/ansidecl.h:
+../../../gcc/gcc/system.h:
+../../../gcc/gcc/../include/safe-ctype.h:
+../../../gcc/gcc/../include/filenames.h:
+../../../gcc/gcc/../include/hashtab.h:
+../../../gcc/gcc/../include/ansidecl.h:
+../../../gcc/gcc/../include/libiberty.h:
+../../../gcc/gcc/hwint.h:
+../../../gcc/gcc/errors.h:

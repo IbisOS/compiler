@@ -1,0 +1,77 @@
+alloc-pool.o: ../../../gcc/gcc/alloc-pool.cc config.h auto-host.h \
+ ../../../gcc/gcc/../include/ansidecl.h ../../../gcc/gcc/system.h \
+ ../../../gcc/gcc/../include/safe-ctype.h \
+ ../../../gcc/gcc/../include/filenames.h \
+ ../../../gcc/gcc/../include/hashtab.h \
+ ../../../gcc/gcc/../include/ansidecl.h \
+ /home/dashiel/Desktop/OffDriveProjects/IbisOS/compiler/build/gcc/./gmp/gmp.h \
+ ../../../gcc/gcc/../include/libiberty.h ../../../gcc/gcc/hwint.h \
+ ../../../gcc/gcc/coretypes.h insn-modes.h ../../../gcc/gcc/signop.h \
+ ../../../gcc/gcc/wide-int.h ../../../gcc/gcc/wide-int-print.h \
+ ../../../gcc/gcc/poly-int.h ../../../gcc/gcc/poly-int-types.h \
+ insn-modes-inline.h ../../../gcc/gcc/machmode.h \
+ ../../../gcc/gcc/mode-classes.def ../../../gcc/gcc/double-int.h \
+ ../../../gcc/gcc/align.h ../../../gcc/gcc/iterator-utils.h \
+ ../../../gcc/gcc/real.h ../../../gcc/gcc/fixed-value.h \
+ ../../../gcc/gcc/hash-table.h ../../../gcc/gcc/statistics.h \
+ ../../../gcc/gcc/ggc.h gtype-desc.h ../../../gcc/gcc/vec.h \
+ ../../../gcc/gcc/../include/hashtab.h ../../../gcc/gcc/inchash.h \
+ ../../../gcc/gcc/mem-stats-traits.h ../../../gcc/gcc/hash-traits.h \
+ ../../../gcc/gcc/hash-map-traits.h ../../../gcc/gcc/mem-stats.h \
+ ../../../gcc/gcc/hash-map.h ../../../gcc/gcc/hash-set.h \
+ ../../../gcc/gcc/input.h ../../../gcc/gcc/../libcpp/include/line-map.h \
+ ../../../gcc/gcc/is-a.h ../../../gcc/gcc/memory-block.h \
+ ../../../gcc/gcc/dumpfile.h ../../../gcc/gcc/profile-count.h \
+ ../../../gcc/gcc/alloc-pool.h options.h ../../../gcc/gcc/flag-types.h \
+ ../../../gcc/gcc/config/i386/i386-opts.h \
+ ../../../gcc/gcc/config/i386/stringop.def
+config.h:
+auto-host.h:
+../../../gcc/gcc/../include/ansidecl.h:
+../../../gcc/gcc/system.h:
+../../../gcc/gcc/../include/safe-ctype.h:
+../../../gcc/gcc/../include/filenames.h:
+../../../gcc/gcc/../include/hashtab.h:
+../../../gcc/gcc/../include/ansidecl.h:
+/home/dashiel/Desktop/OffDriveProjects/IbisOS/compiler/build/gcc/./gmp/gmp.h:
+../../../gcc/gcc/../include/libiberty.h:
+../../../gcc/gcc/hwint.h:
+../../../gcc/gcc/coretypes.h:
+insn-modes.h:
+../../../gcc/gcc/signop.h:
+../../../gcc/gcc/wide-int.h:
+../../../gcc/gcc/wide-int-print.h:
+../../../gcc/gcc/poly-int.h:
+../../../gcc/gcc/poly-int-types.h:
+insn-modes-inline.h:
+../../../gcc/gcc/machmode.h:
+../../../gcc/gcc/mode-classes.def:
+../../../gcc/gcc/double-int.h:
+../../../gcc/gcc/align.h:
+../../../gcc/gcc/iterator-utils.h:
+../../../gcc/gcc/real.h:
+../../../gcc/gcc/fixed-value.h:
+../../../gcc/gcc/hash-table.h:
+../../../gcc/gcc/statistics.h:
+../../../gcc/gcc/ggc.h:
+gtype-desc.h:
+../../../gcc/gcc/vec.h:
+../../../gcc/gcc/../include/hashtab.h:
+../../../gcc/gcc/inchash.h:
+../../../gcc/gcc/mem-stats-traits.h:
+../../../gcc/gcc/hash-traits.h:
+../../../gcc/gcc/hash-map-traits.h:
+../../../gcc/gcc/mem-stats.h:
+../../../gcc/gcc/hash-map.h:
+../../../gcc/gcc/hash-set.h:
+../../../gcc/gcc/input.h:
+../../../gcc/gcc/../libcpp/include/line-map.h:
+../../../gcc/gcc/is-a.h:
+../../../gcc/gcc/memory-block.h:
+../../../gcc/gcc/dumpfile.h:
+../../../gcc/gcc/profile-count.h:
+../../../gcc/gcc/alloc-pool.h:
+options.h:
+../../../gcc/gcc/flag-types.h:
+../../../gcc/gcc/config/i386/i386-opts.h:
+../../../gcc/gcc/config/i386/stringop.def:
